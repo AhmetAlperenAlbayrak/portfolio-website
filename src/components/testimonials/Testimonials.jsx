@@ -3,7 +3,9 @@ import './testimonials.css'
 
 function Testimonials() {
   return (
-    <div>Testimonials</div>
+    <section id="testimonials">
+      <h1>Testimonials</h1>
+    </section>
   )
 }
 
