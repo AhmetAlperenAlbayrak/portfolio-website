@@ -11,7 +11,7 @@ function Nav() {
 
   return (
     <nav>
-      <a href="#/" className={isActive === '#' ? 'active' : ''} > <AiOutlineHome /> </a>
+      <a href="/#" className={isActive === '#' ? 'active' : ''} > <AiOutlineHome /> </a>
       
       <a href="#about" onClick={() => setIsActive('#about')} className={isActive === '#about' ? 'active' : ''} > <AiOutlineUser /> </a>
 
