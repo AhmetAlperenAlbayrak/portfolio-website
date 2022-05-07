@@ -11,15 +11,15 @@ function Nav() {
 
   return (
     <nav>
-      <a href="/#" className={isActive === '#' ? 'active' : ''} > <AiOutlineHome /> </a>
+      <a href="#home" onClick={() => setIsActive('home')} className={isActive === 'home' ? 'active' : ''} > <AiOutlineHome /> </a>
       
-      <a href="#about" onClick={() => setIsActive('#about')} className={isActive === '#about' ? 'active' : ''} > <AiOutlineUser /> </a>
+      <a href="#about" onClick={() => setIsActive('about')} className={isActive === 'about' ? 'active' : ''} > <AiOutlineUser /> </a>
 
       <a href="#experience" onClick={() => setIsActive('experience')} className={isActive === 'experience' ? 'active' : ''} > <BiBook /> </a>
 
-      <a href="#services" onClick={() => setIsActive('#services')} className={isActive === '#services' ? 'active' : ''} > <RiServiceLine /> </a>
+      <a href="#services" onClick={() => setIsActive('services')} className={isActive === 'services' ? 'active' : ''} > <RiServiceLine /> </a>
 
-      <a href="#contact" onClick={() => setIsActive('#contact')} className={isActive === '#contact' ? 'active' : ''} > <BiMessageSquareDetail /> </a>
+      <a href="#contact" onClick={() => setIsActive('contact')} className={isActive === 'contact' ? 'active' : ''} > <BiMessageSquareDetail /> </a>
     </nav>
   )
 }
